@@ -1,0 +1,33 @@
+.button {
+  background-color:rgb(172, 251, 152);
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.divtag {
+  display:inline-block;
+  position:relative;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  color: rgb(23, 128, 0);
+  z-index: 1;
+  background-color: darkseagreen;
+  min-width: 160px;
+}
+.dropdown_content a {
+  display: block;
+  color:darkorchid;
+  text-decoration: none;
+  padding: 10px;
+}
+.dropdown_content a:hover {
+  background-color: palevioletred;
+}
+.divtag:hover .content_dropdown{
+  display: block;
+}
+.divtag:hover .button {
+  background-color: darkcyan;
+}
